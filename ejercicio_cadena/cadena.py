@@ -21,11 +21,12 @@ increaseSalesPercent = 12.93720081
 revenueGrowthPercent = 18.33206078
 print(f"Las ventas de la empresa láctea aumentaron un {increaseSalesPercent:.2f}% "
       f"y los ingresos crecieron un {revenueGrowthPercent:.2f}%")
+
 #4.
-secretMessage = "aS!Ir waQm VL!eDafrcnXi n=gS .P,yytahgoln.!"
-result1= secretMessage [3:]
-result2 = result1[::2]
-print(result2)
+secretMessage = ("aS!Ir waQm  VL!eDafrcnXi n=gS .P,yytahgoln.!")
+result1= secretMessage [3::2]
+print(result1)
+
 
 #5.
 text = "El nombre Python viene dado por la afición de Van Rossum al grupo Monty Python."
@@ -35,7 +36,7 @@ print(f"Numero de palabras en la frase:{text2}")
 
 
 #6.
-word= "Camila sonríe con alegría."
+word= "Camila"
 print(word)
 word2= word.replace( "a", "e")
 print(word2)
